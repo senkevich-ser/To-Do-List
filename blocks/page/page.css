@@ -1,0 +1,8 @@
+.page {
+  background-color: cadetblue;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1200px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Приложение">
+   <meta name="keywords" content="HTML5, CSS">
+   <meta name="author" content="Сергей Сенкевич">
+   <link href="./index.css" rel="stylesheet">
+   <script src="./script.js" defer></script>
+   <title>To Do List</title>
+</head>
+
+<body class="page">
+   <header class="header">
+      <h1 class="header__title">To Do List</h1>
+   </header>
+   <main class="todo">
+      <form class="todo__form">
+         <input name='text' class='todo__input' />
+         <button type='submit' class="todo__button">Добавить</button>
+      </form>
+      <ul class="container">
+
+      </ul>
+   </main>
+   <template class="card__template">
+      <li class="card">
+         <h3 class="card__title">Сходить погулять</h3>
+         <div>
+            <button class="card__button card__button_type_edit">&#9998;</button>
+            <button class="card__button card__button_type_delete">&#10006;</button>
+         </div>
+      </li>
+   </template>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.card {
+  max-width: 550px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  border: solid 1px antiquewhite;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px 1px;
+}
